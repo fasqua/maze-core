@@ -1,0 +1,17 @@
+[package]
+name = "maze-core"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Chain-agnostic dynamic maze routing for privacy primitives"
+
+[dependencies]
+serde = { workspace = true }
+sha2 = { workspace = true }
+rand = { workspace = true }
+thiserror = { workspace = true }
+
+[features]
+testing = []

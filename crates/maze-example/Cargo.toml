@@ -1,0 +1,13 @@
+[package]
+name = "maze-example"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Example usage of maze-core and maze-solana"
+
+[dependencies]
+maze-core = { path = "../maze-core", version = "0.1.0" }
+maze-solana = { path = "../maze-solana", version = "0.1.0" }
+tokio = { workspace = true }

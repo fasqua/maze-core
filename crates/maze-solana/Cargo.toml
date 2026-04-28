@@ -1,0 +1,12 @@
+[package]
+name = "maze-solana"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Solana adapter for maze-core dynamic maze routing"
+
+[dependencies]
+maze-core = { path = "../maze-core", version = "0.1.0" }
+solana-sdk = { workspace = true }
